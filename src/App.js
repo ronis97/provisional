@@ -3,23 +3,23 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="box">
+    
+    <h1>Bienvenido a Learning Guardians</h1>
+
+    <input type="text" value="email" class="botones" />
+    <p></p>
+    <input type="text" value="password" class="botones"/> 
+    <p></p>
+    <button  id="data" class="btn">
+        Ingresar
+    </button>
+
+
     </div>
   );
+
+  
 }
 
 export default App;
